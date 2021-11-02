@@ -1,0 +1,31 @@
+nav{ 
+	height:41px;
+	border-top:1px solid #EDEEF0;
+	border-bottom:1px solid #EDEEF0;
+	}
+nav a{
+	font-size:14px;
+	color:white;	
+	text-decoration:none;
+	padding:0 15px;
+	height: 41px;
+	line-height: 41px;
+	display:inline-block;
+	}
+nav a:hover{
+	background-color:#CCC;
+	}
+body{
+	background:url(images/1.jpg) fixed;}
+*{
+	margin:0;
+	padding:0;}
+.name{
+	position:absolute;
+	right:75px;
+	top:150px
+	}
+.sy{	
+	font-style:italic;
+	font-weight:bold;
+	font-size:130%}

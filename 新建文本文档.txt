@@ -1,0 +1,52 @@
+.one {
+			padding:30px;
+			margin:auto;
+			position: absolute;
+			width:600px;
+			height: 450px;
+			overflow: hidden;
+		}
+ 		.one_cantent img {
+			width: 600px;
+			height: 450px;
+			float: left;
+		}
+		.one_cantent {
+			width: 2500px;
+			height: 400px;
+			position: absolute;
+			left: 0px;
+			animation-name: move;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes move {
+			0% {
+				left: 0px;
+			}
+			25% {
+				left: -500px;
+			}
+			50% {
+				left: -1000px;
+			}
+			75% {
+				left: -1500px;
+			}
+			100% {
+				left: -2000px
+			}
+		}
+
+
+
+
+
+<div class="one">
+			<div class="one_cantent">
+			<img src="images/z1.jpg">
+			<img src="images/z2.jpg">
+			<img src="images/z3.jpg">
+			<img src="images/z4.jpg">
+			<img src="images/z5.jpg">
+		</div>
